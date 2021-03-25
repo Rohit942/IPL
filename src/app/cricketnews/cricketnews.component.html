@@ -1,0 +1,78 @@
+<h3 class="heading text-capitalize mb-sm-5 mb-4 text-center"> Cricket News</h3>
+<div class="user_fan">
+    <div class="container">
+        <div class="row">
+            <div class="card border-danger golge">
+                <div class="card-header">
+                    <a class="isteColor">
+                        <h5 class="text-center m-2" style="font-weight:bold; color:#0dc5dd;">NEWS FLOW</h5>
+                    </a>
+                </div>
+
+                <div class="card-body">
+                    <div class="carousel vert slide" data-ride="carousel" data-interval="2000">
+                        <div class="carousel-inner">
+                            <div *ngFor="let itam of news">
+                                <div class="carousel-item active">
+                                    <ul class="timeline">
+                                        <li>
+                                            <!--"_blank" tıklanan linkin yeni sekmede açılmasını sağlar.-->
+                                            <a href="#">{{itam.Headline1}}</a>
+                                            <a href="#" class="float-right">{{itam.date1}}</a>
+                                            <p class="article">{{itam.news1}}</p>
+                                        </li>
+                                        <hr>
+                                        <li>
+                                            <a href="#">{{itam.Headline2}}</a>
+                                            <a href="#" class="float-right">{{itam.date2}}</a>
+                                            <p class="article">{{itam.news2}}</p>
+                                        </li>
+                                        <hr>
+                                        <li>
+                                            <a href="#">{{itam.Headline3}}</a>
+                                            <a href="#" class="float-right">{{itam.date3}}</a>
+                                            <p class="article">{{itam.news3}}</p>
+                                        </li>
+                                        <hr>
+                                        <li>
+                                            <a href="#">{{itam.Headline4}}</a>
+                                            <a href="#" class="float-right">{{itam.date4}}</a>
+                                            <p class="article">{{itam.news4}}</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="carousel-item">
+                                    <ul class="timeline">
+                                        <li>
+                                            <a href="#">{{itam.Headline5}}</a>
+                                            <a href="#" class="float-right">{{itam.date5}}</a>
+                                            <p class="article">{{itam.news5}}</p>
+                                        </li>
+                                        <hr>
+                                        <li>
+                                            <a href="#">{{itam.Headline6}}</a>
+                                            <a href="#" class="float-right">{{itam.date6}}</a>
+                                            <p class="article">{{itam.news6}}</p>
+                                        </li>
+                                        <hr>
+                                        <li>
+                                            <a href="#">{{itam.Headline7}}</a>
+                                            <a href="#" class="float-right">{{itam.date7}}</a>
+                                            <p class="article">{{itam.news7}}</p>
+                                        </li>
+                                        <hr>
+                                        <li>
+                                            <a href="#">{{itam.Headline7}}</a>
+                                            <a href="#" class="float-right">{{itam.date7}}</a>
+                                            <p class="article">{{itam.news7}}</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

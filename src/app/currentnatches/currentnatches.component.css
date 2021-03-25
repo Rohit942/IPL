@@ -1,0 +1,38 @@
+.infime {
+    color: #fff;
+    width: 276px;
+    float: left;
+    background: #282c33;
+    height: 89px;
+    margin-top: 20px;
+    padding: 4px 11px 86px;
+}
+
+.flotr {
+    float: right;
+    font-weight: 800;
+    margin: auto;
+}
+
+.infime:hover {
+    background: #616161;
+}
+
+h3.heading {
+    font-size: 33px;
+    font-weight: 600;
+    padding-top: 20px;
+    letter-spacing: 0px;
+    color: #0dc5dd;
+    position: relative;
+}
+
+h3.heading:after {
+    position: absolute;
+    content: '';
+    background: #0dc5dd;
+    width: 16%;
+    height: 2px;
+    left: 42%;
+    bottom: -18%;
+}

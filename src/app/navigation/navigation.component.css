@@ -1,0 +1,15 @@
+.bg-dark {
+    background-color: #0dc5dd!important;
+}
+
+.navbar-nav li a {
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-nav li a:hover {
+    padding: 20px;
+    color: red;
+    text-decoration: none;
+}

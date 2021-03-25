@@ -1,0 +1,110 @@
+.content-left {
+    padding-left: 0;
+}
+
+.information {
+    margin: 0 0 2em 0;
+    padding: 2em;
+    box-shadow: 0px 0px 2px #A8A8A8;
+}
+
+.information h4 {
+    color: #fff;
+    background: #000;
+    padding: 8px 1.5em;
+    display: inline-block;
+    text-align: left;
+}
+
+.information_grids {
+    margin-top: 2em;
+}
+
+.info {
+    float: left;
+    width: 61%;
+    margin-right: 5%;
+}
+
+.info p {
+    color: #0dc5dd;
+    font-size: 1.8em;
+    margin: 0;
+    line-height: 1.4em;
+}
+
+.info a {
+    margin-top: 2.5em;
+    display: inline-block;
+    border: 1px solid #000;
+    color: #000;
+    font-size: .8em;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.info-pic {
+    float: left;
+    width: 20%;
+}
+
+.welcome {
+    padding: 5em 0;
+    text-align: center;
+}
+
+.welcome-info {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.welcome-info h3 {
+    font-size: 3em;
+    margin: 0;
+    color: #0dc5dd;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.welcome-info h4 {
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #ffdd57;
+    margin: 1.5em 0;
+}
+
+.welcome-info p {
+    color: #999;
+    font-size: .9em;
+    margin: 0;
+    line-height: 1.8em;
+    font-weight: 400;
+}
+
+.category h4 {
+    font-size: 1.4em;
+    font-family: 'Titillium Web', sans-serif;
+    color: #fff;
+    text-align: center;
+    background: #474747;
+    padding: 10px 16px;
+}
+
+a.list-group-item {
+    color: #999;
+    font-size: .9em;
+    font-weight: 400;
+}
+
+a.list-group-item:hover {
+    background-color: #0dc5dd !important;
+    color: #fff;
+}
+
+.header-text {
+    background: rgba(33, 191, 252, 0.35);
+    width: 48%;
+    padding: 2%;
+    border-bottom: 5px solid #02b6fc;
+}
